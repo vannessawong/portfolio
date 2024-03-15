@@ -8,20 +8,22 @@ import linkedinlogo from "/src/img/linkedin.svg";
 import Experience from "./components/Experience.jsx";
 import Project from "./components/Project.jsx";
 import Footer from "./components/Footer.jsx";
+import headshot from "/img/Vannessa_Wong_Headshot.jpg";
 
 function App() {
   return (
     <>
       <section className="h-screen w-[80%] flex mx-auto items-center">
         <div className="h-auto flex flex-row sm:flex-col-reverse space-x-10 sm:space-x-0 ">
-          <div className="flex flex-col justify-center space-y-5 text-base">
-            {/* TODO 1: Edit the content of these tags!*/}
-            <h1>Hi! I'm ______</h1>
+          <div className="flex flex-col justify-center space-y-5 text-base w-[90%]"> {/* w2 changes width of site*/}
+            <h1>Hello, hello! I'm Vannessa! </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum ac ante eget arcu ultrices eleifend. Curabitur
-              tincidunt, quam non consequat cursus, nibh velit ultricies lorem,
-              et accumsan augue justo a diam.
+              I'm a product designer, content writer and experience enthusiast. I'm passionate 
+              about creative collaboration and community building. In my work, I strive for one 
+              thing: giving it back and paying it forward. I uphold this value as a current UI/UX 
+              designer at Cornell Digital Tech & Innovation (DTI), a design-business educator at 
+              Design Consulting at Cornell (DCC) and a PM analyst and UX researcher for Cornell's 
+              College of Engineering.
             </p>
             <div className="flex flex-row items-center space-x-2">
               <img src={location} />
@@ -34,7 +36,7 @@ function App() {
 
             {/* TODO 2: Change the links of these tags to link to your socials! */}
             <div className="flex flex-row h-10 space-x-2">
-              <a href="">
+              <a href="https://github.com/vannessawong">
                 <img src={githublogo} />
               </a>
               <a href="">
@@ -51,7 +53,7 @@ function App() {
           <div className="flex justify-center ">
             {/* TODO 3: Change this to a custom image! */}
             <img
-              src={wicclogo}
+              src={headshot}
               alt="WICC Logo"
               className="object-contain sm:p-10"
             />
