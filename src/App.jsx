@@ -50,7 +50,7 @@ function App() {
               </a>
             </div>
           </div>
-          <div className="flex justify-center ">
+          <div className="flex justify-center w-[80%]">
             {/* TODO 3: Change this to a custom image! */}
             <img
               src={headshot}
